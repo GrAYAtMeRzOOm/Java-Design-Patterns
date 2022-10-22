@@ -1,6 +1,6 @@
 # Java-Design-Patterns
 
-###### Decorator Pattern
+###### Decorator Pattern 
 ###### Composite Pattern		
 ###### Bridge Design Pattern	
 ###### Builder Design Pattern		
