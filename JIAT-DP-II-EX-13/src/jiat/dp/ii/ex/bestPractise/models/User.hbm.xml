@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 23, 2022 9:16:32 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="jiat.dp.ii.ex.bestPractise.models.User" table="user" catalog="carstore" optimistic-lock="version">
+        <id name="UId" type="java.lang.Integer">
+            <column name="u_id" />
+            <generator class="identity" />
+        </id>
+        <property name="firstname" type="string">
+            <column name="firstname" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" />
+        </property>
+        <property name="pass" type="string">
+            <column name="pass" />
+        </property>
+    </class>
+</hibernate-mapping>
